@@ -1,0 +1,4 @@
+1. W get_nearest_points.py wykorzystujemy metodę euclidean_distance z calculator.segment_calculator. Jednak
+program jeszcze pyta nas o punkty A i B, które nas nie interesują. Zmodyfikuj get_nearest_points lub
+segment_calculator tak, aby tego uniknąć.
+2. Program numpy.py ma problem z działaniem. Zidentyfikuj problem i zaproponuj rozwiązanie.
