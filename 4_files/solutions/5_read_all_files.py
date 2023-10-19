@@ -7,8 +7,10 @@
 import os
 
 
-def read_all_files(filenames: list[str]) -> list[str]:
+def read_all_files(filenames: list[str], ignore_errors=False) -> list[str]:
     lines = []
+    if ignore_errors:
+        return read_all_files_ignored(filenames)
     for filename in filenames:
         with open(filename, "r") as file:
             lines.extend(file.readlines())
@@ -18,7 +20,7 @@ def read_all_files(filenames: list[str]) -> list[str]:
 def read_all_files_ignored(filenames: list[str]) -> list[str]:
     lines = []
     for filename in filenames:
-        if os.path.exists(filename):
+        if os.path.isfile(filename):
             with open(filename, "r") as file:
                 lines.extend(file.readlines())
     return lines
