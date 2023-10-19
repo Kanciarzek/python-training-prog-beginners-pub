@@ -1,10 +1,6 @@
 class A:
     pass
 
-a = A()
-print(a)
-print(type(a))
-
 
 class Person:
     def __init__(self, name: str, surname: str):
