@@ -1,4 +1,4 @@
-# Rozszerz klasę Wallet z pakietu wallet tworzać klasę CustomWallet i dodaj do niej możliwość odejmowania
+# Rozszerz klasę Wallet z pakietu wallet tworząc klasę CustomWallet i dodaj do niej możliwość odejmowania
 # portfeli tak aby warunki w assert zostały spełnione.
 from wallet import Wallet, Money
 
