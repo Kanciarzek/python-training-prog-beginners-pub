@@ -1,0 +1,10 @@
+<settings>
+    <app>
+        <port>30001</port>
+    </app>
+    <database>
+        <host>127.0.0.1</host>
+        <port>5000</port>
+        <password>encrypted_password</password>
+    </database>
+</settings>
