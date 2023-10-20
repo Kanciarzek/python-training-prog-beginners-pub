@@ -1,0 +1,15 @@
+<slideshow>
+    <title>Demo slideshow</title>
+    <slide colour="green">
+        <title>Introduction</title>
+        <point>This is a demo</point>
+        <point>Of a program for processing slides</point>
+    </slide>
+
+    <slide>
+        <title>Another demo slide</title>
+        <point>It is important</point>
+        <point>To have more than</point>
+        <point>one slide</point>
+    </slide>
+</slideshow>
