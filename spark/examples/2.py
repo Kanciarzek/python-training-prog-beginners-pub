@@ -1,6 +1,10 @@
+# wymaga pip install pyspark
+
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, ArrayType, IntegerType, StringType, DateType
 from pyspark.sql.functions import lit, col, count, when, max
+
+
 
 schema_salaries = StructType([StructField("emp_no", IntegerType(), False),
                               StructField("salary", IntegerType(), False),
