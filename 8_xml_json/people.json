@@ -1,0 +1,16 @@
+[
+  {
+    "name": "John",
+    "surname": "Lol",
+    "age": 30,
+    "car": null
+  },
+  {
+    "name": "Mary",
+    "age": 28,
+    "car": {
+      "brand": "ford",
+      "colour": "black"
+    }
+  }
+]
